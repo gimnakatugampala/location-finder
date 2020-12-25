@@ -3,7 +3,7 @@ document.querySelector('body').addEventListener('click',deleteLocation);
 
 
 //Listen for submit
-document.querySelector('#zipForm').addEventListener('submit',getLocationInfo);
+document.querySelector('#zipForm').addEventListener('keyup',getLocationInfo);
 
 function getLocationInfo(e){
     e.preventDefault();
